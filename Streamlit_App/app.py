@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load Model
-model = pickle.load(open("../Model/loan_model.pkl", "rb"))
+model = pickle.load(open("loan_model.pkl", "rb"))
 
 st.set_page_config(page_title="Loan Approval Prediction", page_icon="🏦")
 
